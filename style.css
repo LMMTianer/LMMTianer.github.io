@@ -1,0 +1,222 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Indie Flower', cursive;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+   background-image: linear-gradient(rgba(3,6,25,0.5),rgba(3,6,25,0.5)),url(images/manul_c.jpg);
+    background-position: center; 
+    background-size: cover; 
+    position: relative;
+}
+nav{
+    display: flex; 
+    padding: 10% 6%; /*horyzontalne ustawienie listy */
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav-links{
+    flex: 4;  
+    text-align: left; /*jak mają być nagłówki menu */
+}
+.nav-links ul li{
+    list-style: none; 
+    /*display: inline-block; jakbyśmy chcieli, żeby menu było w jednej linii */
+    padding: 1px 6px;
+}
+.nav-links ul li a{
+    font-weight: bold;
+    color: #B0C4DE;
+    text-decoration: none; 
+    font-size: 25px; 
+}
+
+.nav-links ul li::after{
+    content:''; 
+    width: 0; 
+    height: 2px;
+    background: #4682B4; 
+    display: block;
+    margin: left; 
+    transition: 1s; 
+}
+.nav-links ul li:hover::after{
+    width: 17%;
+}
+.text-box{
+    width: 30%;
+    color: #B0C4DE;
+    position: absolute; 
+    top: 80%;
+    left: 6%;
+}
+.text-box h1{
+    font-size: 17px; 
+    
+}
+
+.hero-btn{
+    display: inline;
+    text-decoration: none;
+    color:beige; 
+    border: 1px solid #BC8F8F;
+    padding: 7px 30px; 
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #4682B4;
+    background: #4682B4;
+    transition: 1s;
+    
+}
+
+/*-------Tutorial---------*/
+
+.sub-header{
+    height:100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(3,6,25,0.5),rgba(3,6,25,0.5)),url(images/start_image.jpg);
+    background-position: center; 
+    background-size: cover; 
+    text-align: center, top; 
+    color:Linen;
+    
+}
+
+.sub-header h1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+.tutorial{
+    width:30%;
+    margin:auto; 
+    margin-top:-630px;
+   
+}
+.tutorial p{
+    font-size: 25px; 
+    color: Linen;
+     
+    
+}
+.attractions{
+    width:90%;
+    margin:auto;
+}
+
+.location iframe{
+    width: 10%;
+    
+}
+/*-----History-----*/
+
+.history-header{
+    height:100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(3,6,25,0.5),rgba(3,6,25,0.5)),url(images/start_image.jpg);
+    background-position: center; 
+    background-size: cover; 
+    text-align: center; 
+    color:black;
+   
+}
+
+.history-header h1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.history{
+    width:80%;
+    margin:auto;
+    text-align:center; 
+    margin:auto;
+    
+}
+
+
+
+
+video {
+            width: 30%;
+            max-width:300px;
+            margin: 20px auto;
+            display: block;
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*--------contact-------*/
+
+.contact-header{
+    height:100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(3,6,25,0.5),rgba(3,6,25,0.5)),url(images/start_image.jpg);
+    background-position: center; 
+    background-size: cover; 
+    text-align: center; 
+    color: Linen;
+}
+
+.contact-header h1{
+    position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact h1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.comment-form input, comment-form textarea{
+    width:50%;
+    padding:10px;
+    margin:15px 0;
+    box-sizing: border-box;
+    border: none; 
+    outline:none; 
+    background: Linen;
+    top:60%
+    
+}
+.comment-form button{
+    margin:10px 0; 
+    background:Sienna; 
+    
+}
+
+.comment-box{
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
